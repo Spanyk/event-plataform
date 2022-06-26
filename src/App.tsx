@@ -1,6 +1,10 @@
 function App() {
   return {
-      <h1 className="text-5xl font-bold text-violet"> Hello mundo </h1>
+      <ul>
+        {data?.lessons.map(lesson => {
+          return <li key={lesson.id}> {lesson.title} </li>
+        })}
+      </ul>
   }
 }
 
