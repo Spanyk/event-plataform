@@ -1,1 +1,1 @@
-﻿# Imersão REACT Rocketseat
+# Imersão React.js Rocketseat
